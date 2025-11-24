@@ -1,0 +1,191 @@
+.page
+{
+    background-color:beige;
+}
+
+.navbar
+{
+    padding: 30px;
+}
+
+.navbar a
+{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover
+{
+    background-color: chocolate;
+}
+
+.a1
+{
+    display: inline;
+    background-color:rgb(53, 43, 30);
+    color:beige;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.a2
+{
+    display: inline;
+    background-color:rgb(53, 43, 30);
+    color:beige;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.a3
+{
+    display: inline;
+    background-color:rgb(53, 43, 30);
+    color:beige;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.section1
+{
+    position: relative;
+}
+
+.section1 img
+{
+    width: 100%;
+    /* covers entire vertical height (vh) */
+    height: 100vh;
+    /* makes it fit without getting squeezed or stretched weirdly */
+    object-fit: cover;
+}
+
+.section2
+{
+    position: relative;
+}
+
+.section2 img
+{
+    width: 100%;
+    /* covers entire vertical height (vh) */
+    height: 100vh;
+    /* makes it fit without getting squeezed or stretched weirdly */
+    object-fit: cover;
+}
+
+.section2 a
+{
+    display: inline;
+    background-color:rgb(53, 43, 30);
+    color:white;
+    padding: 10px 20px;
+    border-radius: 45px;
+    text-decoration: none;
+    position: absolute;
+    top: 8%;
+    left: 76%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.section2 a:hover
+{
+    color: chocolate;
+}
+
+.foot img
+{
+    height: 15px;
+    width: 15px;
+}
+
+.box-main
+{
+    font-size: 40px;
+    height: 50px;
+    width: 97%;
+    color: white;
+    background-color:rgb(53, 43, 30);
+    border-radius: 0%;
+    border-width: 3px;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box
+{
+    /* puts img and text side by side */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 250px;
+    width: 97%;
+    color: white;
+    background-color:chocolate;
+    border-radius: 0%;
+    border-width: 3px;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box img
+{
+    height: 250px;
+    width: 170px;
+}
+
+.name
+{
+    font-size: 37px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.time
+{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.price
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.options
+{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box-contact
+{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    gap: 15px;
+    font-size: 40px;
+    height: 50px;
+    width: 97%;
+    color:white;
+    background-color:black;
+    border-radius: 0%;
+    border-width: 3px;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box-contact a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.box-contact a:hover
+{
+    text-decoration: underline;
+    color: chocolate;
+}
